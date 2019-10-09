@@ -12,6 +12,9 @@ LABEL maintainer="Mahmoud Zalt <mahmoud@zalt.me>"
 RUN apk --update add wget \
   curl \
   git \
+  openssl \
+  openssl-dev \
+  php7-openssl \
   build-base \
   libmemcached-dev \
   libmcrypt-dev \
@@ -22,8 +25,10 @@ RUN apk --update add wget \
   libgsasl-dev \
   supervisor
 
-RUN docker-php-ext-install mysqli mbstring pdo pdo_mysql tokenizer xml pcntl
+RUN docker-php-ext-install mysqli mbstring pdo pdo_mysql tokenizer xml pcntl 
 RUN pecl channel-update pecl.php.net && pecl install memcached mcrypt-1.0.1 && docker-php-ext-enable memcached
+RUN pecl channel-update pecl.php.net && pecl install swoole && docker-php-ext-enable swoole
+RUN pecl channel-update pecl.php.net && pecl install mongodb && docker-php-ext-enable mongodb 
 
 # Install PostgreSQL drivers:
 ARG INSTALL_PGSQL=false
@@ -34,6 +39,7 @@ RUN if [ ${INSTALL_PGSQL} = true ]; then \
 
 RUN rm /var/cache/apk/* \
     && mkdir -p /var/www
+
 
 #
 #--------------------------------------------------------------------------
