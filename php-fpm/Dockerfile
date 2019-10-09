@@ -21,6 +21,10 @@ LABEL maintainer="Mahmoud Zalt <mahmoud@zalt.me>"
 # Set Environment Variables
 ENV DEBIAN_FRONTEND noninteractive
 
+RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak
+COPY ./sources.list  /etc/apt/sources.list
+
+
 # always run apt update when start and after add new source list, then clean up at end.
 RUN apt-get update -yqq && \
     apt-get install -y apt-utils && \

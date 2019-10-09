@@ -7,3 +7,7 @@
 2018/07/16 09:46:00 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/erp.conf:4
 2018/07/16 09:47:40 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/erp.conf:4
 2018/07/16 09:50:25 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/erp.conf:4
+2019/10/02 16:30:47 [alert] 1#1: worker process 8 exited on signal 9
+2019/10/02 16:30:47 [alert] 1#1: worker process 7 exited on signal 9
+2019/10/02 16:30:47 [alert] 1#1: worker process 9 exited on signal 9
+2019/10/02 16:30:47 [alert] 1#1: worker process 10 exited on signal 9
