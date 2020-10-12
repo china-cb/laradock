@@ -1,0 +1,6 @@
+172.20.0.1 - - [15/Oct/2019:15:01:45 +0000] "GET / HTTP/1.0" 500 423765 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+172.20.0.1 - - [15/Oct/2019:15:01:45 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+172.20.0.1 - - [15/Oct/2019:15:02:57 +0000] "GET / HTTP/1.0" 500 424058 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+172.20.0.1 - - [15/Oct/2019:15:09:41 +0000] "GET / HTTP/1.0" 200 2363 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+172.20.0.1 - - [15/Oct/2019:15:09:41 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+172.20.0.1 - - [15/Oct/2019:15:10:19 +0000] "GET /GetBjProduct HTTP/1.0" 404 1552 "-" "PostmanRuntime/7.6.0"

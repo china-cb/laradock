@@ -32,3 +32,7 @@
 172.20.0.1 - - [01/Oct/2019:03:29:03 +0000] "GET / HTTP/1.0" 499 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 172.20.0.1 - - [01/Oct/2019:03:29:06 +0000] "GET /products HTTP/1.0" 500 692242 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
 172.20.0.1 - - [01/Oct/2019:03:29:06 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+172.20.0.1 - - [11/Oct/2020:13:16:20 +0000] "GET / HTTP/1.0" 301 280 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
+172.20.0.1 - - [11/Oct/2020:13:16:22 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "http://www.laravelshop.test/products" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
+172.20.0.1 - - [11/Oct/2020:13:16:22 +0000] "GET /products HTTP/1.0" 500 699145 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
+172.20.0.1 - - [11/Oct/2020:13:16:38 +0000] "GET /products HTTP/1.0" 500 699163 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
